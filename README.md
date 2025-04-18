@@ -61,12 +61,13 @@ You can apply this analysis to different river reaches by downloading data from 
 
 1.  **Go to the SWOT Virtual Observatory:** Visit [https://swotvis.cuahsi.io/#/map](https://swotvis.cuahsi.io/#/map).
 2.  **Select Your River Reach:** Navigate to your area of interest on the map and select the river reach you want to analyze.
-
+    ![Screenshot showing how to select a river reach on the map](images/plot.png)
 3.  **Plot the Data:** Click on the "Plot" button.
+    ![Screenshot showing how to download csv file](images/Actions.png)
 
 4.  **Download Data:** Go to the "Actions" panel on the bottom left and click on the download options for the data you need (e.g., SWOT River Reach/Node data, potentially associated raster products if available). Download the CSV files.
-5.  **Replace Data:** Move the downloaded CSV files into the appropriate directory within this repository (ensure they match the filenames expected by the notebook, or update the filenames in the notebook). You might also need to update the path to any associated raster files if used.
-6.  **Run the Code:** Run the `River_Bathymetry_with_SWOT.ipynb` notebook again with the newly downloaded data to generate cross-sections and plots for your chosen river reach.
+5.  **Replace Data:** Move the downloaded CSV files into the appropriate directory within this repository (ensure they match the filenames expected by the notebook, or update the filenames in the notebook). You might also need to update the path to these csv files.
+6.  **Run the Code:** Run the `ENV_INF.ipynb` notebook again with the newly downloaded data to generate cross-sections and plots for your chosen river reach.
 
 ---
 
