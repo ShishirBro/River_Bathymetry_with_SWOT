@@ -55,6 +55,10 @@ To run the analysis code, you first need to set up a Python environment with the
 
 4.  **Run the Cells:** Run the cells in the notebook sequentially. The code will process the SWOT data, generate cross-sections, extract values, and produce plots.
 
+5.  **Input:** The input file is 68_nodes_node_wabash_river_74266700241_2023_03_01t00_00_00z_2025_03_11t19_44_21z.csv in a csv format which is found on the directory ./ where the repo is.
+
+6.  **Output:** The output files are expected to be of .png extension which will be stored in ./figures_env_env
+
 ## Using Your Own River Reach Data
 
 You can apply this analysis to different river reaches by downloading data from the SWOT Virtual Observatory:
